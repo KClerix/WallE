@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView android:id="@+id/title_paired_devices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Click on the CocktailMaker 9000 to make a connection!"
+        android:visibility="gone"
+        android:background="#666"
+        android:textColor="#fff"
+        android:paddingLeft="5dp"
+    />
+    <ListView android:id="@+id/paired_devices"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:stackFromBottom="false"
+
+    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        >
+
+
+    </LinearLayout>
+
+</LinearLayout>

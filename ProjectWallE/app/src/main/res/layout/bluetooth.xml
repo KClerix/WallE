@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="205dp">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STOP"
+            android:id="@+id/btnStop"
+            android:layout_gravity="left|bottom" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/\"
+            android:id="@+id/btnVooruit"
+            android:layout_gravity="center_horizontal|top" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="V"
+            android:id="@+id/btnAchteruit"
+            android:layout_gravity="center" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="93dp"
+            android:layout_height="59dp"
+            android:text=">"
+            android:id="@+id/btnRechts"
+            android:layout_gravity="right|center_vertical" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="98dp"
+            android:layout_height="60dp"
+            android:text="&lt;"
+            android:id="@+id/btnLinks"
+            android:layout_gravity="left|center_vertical" />
+    </FrameLayout>
+</LinearLayout>
